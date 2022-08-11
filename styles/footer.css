@@ -24,10 +24,10 @@
 
 .footer-2 ul.contact{
     list-style: none;
+
 }
 
 .footer-2 ul.contact li{
-    font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -44,7 +44,6 @@
 }
 
 .footer-2 ul.contact li p{
-    font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
