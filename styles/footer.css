@@ -1,0 +1,118 @@
+.footer-2{
+    padding: 65px 150px 2px 150px;
+    position: absolute;
+    width: 1440px;
+    height: 432px;
+    left: 0px;
+    bottom: 0;
+    background: #333333;
+    color: #fff;
+}
+
+.footer-2 .footer-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-2 ul.social{
+    display: inline-flex;
+    list-style: none;
+    column-gap: 10px;
+}
+
+.footer-2 ul.contact{
+    list-style: none;
+}
+
+.footer-2 ul.contact li{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: flex;
+    column-gap: 10px;
+}
+
+.footer-2 ul.contact li img{
+    height: 20px;
+    width: 20px;
+    border-radius: 0px;
+
+}
+
+.footer-2 ul.contact li p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-2 .newsletter input[type="email"]{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    width: 298px;
+    height: 54px;
+    background: #F2F2F2;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-2 .newsletter input[type="submit"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+    width: 298px;
+    height: 54px;
+    background: #EA9F08;
+    border-radius: 8px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color:#fff;
+}
+
+.footer-2 .newsletter img{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.footer-2 .newsletter input[type="submit"]::after{
+    display: inline-block;
+    text-rendering: auto;
+    background: #FFFFFF;
+}
+
+.submit-button img{
+    position: absolute;
+    left: 81%;
+    right: 4.17%;
+    top: 44.3%;
+    bottom: 12.5%;
+}
