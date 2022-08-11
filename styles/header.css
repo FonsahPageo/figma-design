@@ -7,11 +7,11 @@ header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     position: absolute;
-    top: 24px;
     width: 100 vw;
 }
 
 .top-nav ul{
+    top: 44px;
     display: inline-flex;
     list-style: none;
     float: left;
