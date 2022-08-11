@@ -12,6 +12,7 @@
     background-blend-mode: color-dodge;
 }
 
+
 .welcome{
     position: relative;
     width: 903px;
@@ -631,5 +632,38 @@
     left: 155px;
     top: 3400px;
     bottom: 600;
+}
 
+.columns h3{
+    width: 82px;
+    height: 37px;
+}
+
+.col-para{
+    color: #2D1E0B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.col-h{
+    color: #865A21;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.col-2-para{
+    color: #F2F2F2;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.col-2-h{
+    color: #F2F2F2;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
