@@ -8,36 +8,11 @@
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/footer.css">
-    
-</head>
+    <script src="javascript.js"></script>
+    </head>
 <body>
-    <header>
-        <nav class="top-nav">
-            <div >
-                <img src="/images/Logo.png"class="nav-logo">
-            </div>
-            <div class="nav-content">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-                <img src="/images/circle-flags_uk.png" class="flag">
-                <select class="selectpicker" data-width="fit">
-                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                </select>
-            </div>
-            <div class="nav-buttons">
-                    <button id="login-button">Login</button>
-                    <button id="get-started">Get Started</button>
-            </div>
-          </nav>
-    </header> 
-
+    <div w3-include-html="header.html"></div>
+    <div w3-include-html="footer.html"></div>
     <section class="section-1">
         <img src="/images/image2.png" class="image-2">
         <div class="welcome">
@@ -185,73 +160,9 @@
         </div>
     </section>
 
-   <footer class="footer-2">
-    <div class="footer-top">
-        <div class="footer-content">
-            <img src="/images/logo2.png" alt="">
-            <ul class="contact">
-                <li class="contact-item">
-                    <img src="/icons/ic_outline-message.png" alt="">
-                    <p>info@goon.cm</p>
-                </li>
-                <li class="contact-item">
-                    <img src="/icons/ic_baseline-local-phone.png" alt="">
-                    <p>+237 698 474 747</p>
-                </li>
-                <li class="contact-item">
-                    <img src="/icons/ic_outline-whatsapp.png" alt="">
-                    <p>+237 698 474 747</p>
-                </li>
-            </ul>
-            <ul class="social">
-                <li><img src="/icons/fa-brands_facebook-f.png" alt=""></li>
-                <li><img src="/icons/fa-brands_linkedin-in.png" alt=""></li>
-                <li><img src="/icons/fa-brands_twitter.png" alt=""></li>
-                <li><img src="/icons/fa-brands_youtube.png" alt=""></li>
-            </ul>
-
-        </div>
-        <div class="footer-links">
-            <h5>Useful Links</h5>
-            <ul class="link-list">
-                <li class="list-item">Useful link 1</li>
-                <li class="list-item">Useful link 2</li>
-                <li class="list-item">Useful link 3</li>
-                <li class="list-item">Useful link 4</li>
-            </ul>
-        </div>
-        <div class="footer-links">
-            <h5>Useful Links</h5>
-            <ul class="link-list">
-                <li class="list-item">Useful link 1</li>
-                <li class="list-item">Useful link 2</li>
-                <li class="list-item">Useful link 3</li>
-                <li class="list-item">Useful link 4</li>
-            </ul>
-        </div>
-        <div class="newsletter">
-            
-            <h5>Newsletter</h5>
-           <form action="">
-            <div class="email-group">
-                <label for="email">Email Adddress</label>
-                <input type="email" placeholder="Enter Email Address" name="email">
-            </div>
-            <div class="submit-button">
-                <input type="submit" name="Send" value="Send">
-                <div class="icon-rtl"><img src="/images/send.png" alt=""></div>
-            </div>
-            <p class="info">Don't miss our latest news</p>
-           </form>
-        </div>
-        <img src="Line2.png" id="line-2"><br><br><br>
-    </div> 
-    
-    <div class="footer-bottom">
-        
-        <p class="copyright">&copy; Copyright 2022 GOON</p>
-        <p class="policy">Private Policy</p>
-    </div> 
-   </footer>
+   
+   <script>
+    includeHTML();
+    </script>
 </body>
 </html>
