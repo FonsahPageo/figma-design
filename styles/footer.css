@@ -1,10 +1,11 @@
 .footer-2{
     padding: 65px 150px 2px 150px;
-    position: absolute;
-    width: 1440px;
+    position: relative;
+    width: 100vw;
     height: 432px;
-    left: 0px;
+    left: 0;
     bottom: 0;
+    top: 3625px;
     background: #333333;
     color: #fff;
 }
