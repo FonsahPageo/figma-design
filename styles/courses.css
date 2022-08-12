@@ -1,0 +1,34 @@
+.courses{
+    position: absolute;
+    width: 100vw;
+    height: 440px;
+    left: 0px;
+    top: 120px;
+    background: #5E3F17;
+}
+
+.courses-img{
+    position: relative;
+    /* width: 100%;
+    height: 1064px;
+    left: -22px;
+    top: -312px; */
+    background: url(/images/image10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* opacity: 0.1; */
+}
+
+.courses-para{
+    position: absolute;
+    width: 368px;
+    height: 73px;
+    left: 517px;
+    top: 188px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 120%;
+    color: white
+}
