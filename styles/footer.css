@@ -109,7 +109,7 @@
     background: #FFFFFF;
 }
 
-.submit-button img{
+.submit-button .icon-rtl img{
     position: absolute;
     left: 81%;
     right: 4.17%;

@@ -9,15 +9,30 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     padding: 30px;
-    /* overflow: hidden; */
 }
 
 .top-nav ul{
-    top: 44px;
-    display: inline-flex;
     list-style: none;
     float: left;
     
+}
+
+.dropdown-menu li{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.dropdown-toggle{
+    display: flex !important;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.dropdown-toggle::after{
+    display: flex !important;
+    top: 0.45rem;
+    position: relative;
 }
 
 .top-nav li{
@@ -28,24 +43,23 @@
 
 .top-nav li a{
     color: #865A21;
+    font-weight: 400;
 }
 
 .nav-content{
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 button.login-button{
-    /* box-sizing: border-box; */
     display: inline-flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 15px 30px;
     gap: 10px;
-    /* position: absolute; */
     width: 101px;
     height: 54px;
-    /* left: 1013px;
-    top: 12px; */
     color: #fff;
     border: 1px solid #EA9F08;
     border-radius: 8px;
@@ -53,15 +67,9 @@ button.login-button{
 
 button.get-started{
     display: inline-flex;
-    /* flex-direction: row;
-    align-items: flex-start; */
     padding: 15px 30px;
     gap: 10px;
-    /* position: absolute; */
     width: 147px;
-    /* height: 54px;
-    left: 1144px;
-    top: 12px; */
     color: #fff;
     background: #EA9F08;
     border: 1px solid #EA9F08;
@@ -71,5 +79,5 @@ button.get-started{
 .nav-buttons{
     display: inline;
     justify-content: space-between;
-    padding: 0 40px 0 0;
+    /* padding: 0 40px 0 0; */
 }

@@ -1,14 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body>    
     <header class="main-header">
         <nav class="top-nav">
             <div >
@@ -16,18 +12,24 @@
             </div>
             <div class="nav-content">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
-                <img src="/images/circle-flags_uk.png" class="flag">
-                <select class="selectpicker" data-width="fit">
-                    <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                </select>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="langBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/images/circle-flags_uk.png" class="flag">
+                        <span>English</span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="langBtn">
+                      <li><img src="/images/circle-flags_uk.png" class="flag">English</li>
+                      <li><img src="/images/circle-flags_uk.png" class="flag">French</li>
+                    </ul>
+                </div>
+                
             </div>
-            
           </nav>
           <div class="nav-buttons">
             <button class="login-button">Login</button>

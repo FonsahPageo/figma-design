@@ -1,11 +1,12 @@
 a{
     text-decoration:none;
 }
+
 .section-1{
     position: absolute;
+    top: 0;
     width: 100vw;
     height: 100vh;
-    top: 0px;
     background-image: url('/images/image2.png');
     background-position: top right;
     background-repeat: no-repeat;
@@ -26,6 +27,11 @@ a{
     background-repeat: no-repeat;
     background-clip: content-box; 
     background-blend-mode: color-dodge;
+}
+
+.top-header{
+    z-index: 90;
+    position: absolute;
 }
 
 
