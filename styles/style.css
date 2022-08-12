@@ -1,3 +1,6 @@
+a{
+    text-decoration:none;
+}
 .section-1{
     position: absolute;
     width: 100vw;
@@ -15,7 +18,7 @@
 
 .welcome{
     position: relative;
-    width: 903px;
+    width: 100vw;
     height: 100vh;
     left: 0px;
     top: 0px;
@@ -58,41 +61,8 @@
     color: #2D1E0B;
 }
 
-#login-button{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 15px 30px;
-    gap: 10px;
-    position: absolute;
-    width: 101px;
-    height: 54px;
-    left: 1013px;
-    top: 12px;
-    color: #fff;
-    border: 1px solid #EA9F08;
-    border-radius: 8px;
-}
 
-#get-started{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 15px 30px;
-    gap: 10px;
-    position: absolute;
-    width: 147px;
-    height: 54px;
-    left: 1144px;
-    top: 12px;
-    color: #fff;
-    background: #EA9F08;
-    border: 1px solid #EA9F08;
-    border-radius: 8px;
-}
-
-#get-started-2{
+button.get-started-2{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -111,7 +81,7 @@
 
 }
 
-#about-us{
+.about-us{
     box-sizing: border-box;
     display: flex;
     flex-direction: row;

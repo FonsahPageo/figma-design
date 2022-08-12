@@ -1,13 +1,15 @@
-header{
+.main-header{
     position: sticky;
-    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
 }
 
 .top-nav{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    position: absolute;
-    width: 100 vw;
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+    /* overflow: hidden; */
 }
 
 .top-nav ul{
@@ -18,12 +20,56 @@ header{
     
 }
 
-.top-nav li a{
+.top-nav li{
     float: left;
     text-decoration: none;
-    padding: 4px;
+    padding: 10px;
+}
+
+.top-nav li a{
+    color: #865A21;
 }
 
 .nav-content{
     text-decoration: none;
+}
+
+button.login-button{
+    /* box-sizing: border-box; */
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 101px;
+    height: 54px;
+    /* left: 1013px;
+    top: 12px; */
+    color: #fff;
+    border: 1px solid #EA9F08;
+    border-radius: 8px;
+}
+
+button.get-started{
+    display: inline-flex;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    padding: 15px 30px;
+    gap: 10px;
+    /* position: absolute; */
+    width: 147px;
+    /* height: 54px;
+    left: 1144px;
+    top: 12px; */
+    color: #fff;
+    background: #EA9F08;
+    border: 1px solid #EA9F08;
+    border-radius: 8px;
+}
+
+.nav-buttons{
+    display: inline;
+    justify-content: space-between;
+    padding: 0 40px 0 0;
 }
