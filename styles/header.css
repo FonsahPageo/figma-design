@@ -3,8 +3,8 @@
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); */
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1)); */
     /* height: 73px; */
     left: 0px;
     top: 0px;
@@ -19,13 +19,12 @@
 .top-nav{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 30px;
 }
 
 .top-nav ul{
     list-style: none;
     float: left;
-    
+    margin-bottom: 0;
 }
 
 .dropdown-menu li{
@@ -54,7 +53,7 @@
 
 .top-nav li a{
     color: #865A21;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .nav-content{

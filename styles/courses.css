@@ -13,11 +13,12 @@
     height: 1064px;
     left: -22px;
     top: -312px; */
-    background: url(/images/image10.png);
-    background-position: center;
+    /* background: url(/images/image10.png); */
+    background-position: center center;
     background-repeat: no-repeat;
-    
-    /* opacity: 0.1; */
+    background-attachment: fixed;
+    background-size: cover;
+    /* opacity: 0.9; */
 }
 
 .courses-para{
