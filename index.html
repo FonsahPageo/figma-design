@@ -11,27 +11,30 @@
     <script src="script/javascript.js"></script>
     </head>
 <body>
-    <div w3-include-html="header.html" style="display: flex;"></div>
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="header.html"></div>
     <section class="section-1">
         <div class="side">
+            <div>
+                <img src="/images/image1.png" class="image-1">
+            </div>
             <img src="/images/image2.png" class="image-2">
+            
         </div>
-        <div class="welcome"></div>
+        <div class="welcome">
             <p class="goon-2">Welcome to <span class="goon-span"> Goon</span> version 2!</p>
             <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ab 
                 voluptates sed, vitae commodi suscipit laboriosam necessitatibus, libero modi 
                 est illum in excepturi nisi voluptas, consectetur odit voluptatibus rem atque?</p>
-                <div class="section-buttons">
+            <div class="section-buttons">
                     <button class="get-started-2">Get Started</button>
                     <button class="about-us">About Us</button>
-                </div>
-                <img src="/images/image1.png" class="image-1">
-                <img src="/images/Frame10.png" class="frame-10">
-                <img src="/images/Frame5.png" class="frame-5">
-                <img src="/images/Frame6.png" class="frame-6">  
+            </div>
+        </div>   
+            <img src="/images/Frame10.png" class="frame-10">
+            <img src="/images/Frame5.png" class="frame-5">
+            <img src="/images/Frame6.png" class="frame-6">  
         </div>
-        <div class="element">
+        <div>
             <h3>Who can use <span class="goon-span">Goon</span></h3>
             <p class="para-2">This platform was developed with local communities in mind, 
             especially communities that do not have access to the internet. 
@@ -54,13 +57,10 @@
     </section>
 
     <section class="section-3">
-
         <h3>Our Popular <span class="goon-span">Courses</span></h3>
         <div class="section-3-content">
-            <div class="maths">
-                <div class="rectangle-5">
-                    <img src="/images/Rectangle 5.png" alt="">
-                </div>
+            <div class="course">
+                <img src="/images/Rectangle 5.png" alt="">
                 <div class="maths-content">
                     <div><img src="/images/Frame 29.png" alt=""></div>
                     <div class="mathsfree">Free </div>
@@ -75,16 +75,14 @@
                 <button type="submit" class="maths-enroll">Enroll Now</button>
             </div>
 
-            <div class="philo">
-                <div class="rectangle-5-1">
-                    <img src="/images/Rectangle 5 (1).png" alt="">
-                </div>
+            <div class="course">
+                <img src="/images/Rectangle 5 (1).png" alt="">
                 <div class="maths-content">
                     <div><img src="/images/Frame 29 (1).png" alt=""></div>
                     <div class="mathsfree">20000 XAF</div>
                 </div>
                 <div class="mathspara">
-                    <p>Learn Philospphy in 4 weeks and get inspired</p>
+                    <p>Learn Philosophy in 4 weeks and get inspired</p>
                 </div>
                 <div class="maths-content-2">
                     <div><img src="/images/Group 2.png" alt="">  23 Lessons</div>
@@ -94,10 +92,8 @@
                 
             </div>
 
-            <div class="csc">
-                <div class="rectangle-5-2">
-                    <img src="/images/Rectangle 5 (2).png" alt="">
-                </div>
+            <div class="course">
+                <img src="/images/Rectangle 5 (2).png" alt="">
                 <div class="maths-content">
                     <div><img src="/images/Frame 29 (2).png" alt=""></div>
                     <div class="mathsfree">Free </div>
@@ -116,33 +112,34 @@
 
     <section class="section-4">
         <h3>Who can use <span class="goon-span">Goon?</span></h3>
+        <div class="columns">
+            <div class="cols">
+                <img src="/images/Group 1.png" alt="">
+                <h4 class="col-h">Tests</h4>
+                <p class="col-para">Find the exam subjects here</p>
+            </div>
+            <div class="cols">
+                <img src="/images/Group 1 (1).png" alt="">
+                <h4 class="col-h">Books</h4>
+                <p class="col-para">Find your books here</p>
+            </div>
+            <div class="cols">
+                <img src="/images/Group 1 (2).png" alt="">
+                <h4 class="col-h">Wikipedia</h4>
+                <p class="col-para">Make your search here</p>
+            </div>
+            <div class="cols">
+                <img src="/images/Group 1 (3).png" alt="">
+                <h4 class="col-h">My Class</h4>
+                <p class="col-para">I'll sit in my classroom anywhere</p>
+            </div>
+            <button class="view">
+                View All
+            </button>
+        </div>
     </section>
 
-    <div class="columns">
-        <div class="col">
-            <img src="/images/Group 1.png" alt="">
-            <h3 class="col-h">Tests</h3>
-            <p class="col-para">Find the exam subjects here</p>
-        </div>
-        <div class="col-2">
-            <img src="/images/Group 1 (1).png" alt="">
-            <h3 class="col-h">Books</h3>
-            <p class="col-para">Find your books here</p>
-        </div>
-        <div class="col-3">
-            <img src="/images/Group 1 (2).png" alt="">
-            <h3 class="col-h">Wikipedia</h3>
-            <p class="col-para">Make your search here</p>
-        </div>
-        <div class="col-4">
-            <img src="/images/Group 1 (3).png" alt="">
-            <h3 class="col-h">My Class</h3>
-            <p class="col-para">I'll sit in my classroom anywhere</p>
-        </div>
-        <button class="view">
-            View All
-        </button>
-    </div>
+    
 
     <section class="imgs">
         <div class="icon">
@@ -168,7 +165,7 @@
         </div>
     </section>
 
-   
+    <div w3-include-html="footer.html"></div>
    <script>
     includeHTML();
     </script>
