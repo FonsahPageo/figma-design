@@ -9,11 +9,6 @@
 
 .courses-img{
     position: relative;
-    /* width: 100%;
-    height: 1064px;
-    left: -22px;
-    top: -312px; */
-    /* background: url(/images/image10.png); */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,8 +18,6 @@
 
 .courses-para{
     position: absolute;
-    width: 368px;
-    height: 73px;
     left: 517px;
     top: 188px;
     font-style: normal;
@@ -33,3 +26,121 @@
     line-height: 120%;
     color: white
 }
+
+.courses-section-3{
+    position: absolute;
+    width: 100vw;
+    height: 487px;
+    left: 2px;
+    top: 400px;
+}
+
+.courses-section-3 p{
+    width: 290px;
+    height: 111px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 120%;
+    color: #2D1E0B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.maths-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 148px;
+    top: 860px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.csc-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 537px;
+    top: 860px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.philo-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 926px;
+    top: 860px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.maths-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 926px;
+    top: 1510px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.philo-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 150px;
+    top: 1510px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.csc-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 49px 29px;
+    gap: 30px;
+    position: absolute;
+    width: 363px;
+    height: 616px;
+    left: 532px;
+    top: 1510px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
