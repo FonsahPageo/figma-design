@@ -1,32 +1,35 @@
-.courses{
-    /* width: 100vw; */
+.courses {
     height: 264px;
     background: url(/images/image\ 10.png);
     background-color: #5E3F17;
     background-position: center;
-    background-repeat: no-repeat;
     background-blend-mode: overlay;
-    /* align-items: center; */
-    /* align-content: center; */
-    /* justify-content: center; */
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
-.section-3-courses{
+.courses-section-2{
     display: flex;
-    /* width: 100%; */
+    width: 100vw;
+    height: 20vh;
+    background: #EA9F08;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    /* padding-block: 200px; */
+}
+
+.section-3-courses {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-} 
-.courses-para{
-    /* position: absolute; */
-    /* left: 517px; */
-    /* top: 188px; */
-    font-style: normal;
+}
+
+.courses p {
     font-weight: 700;
     font-size: 61px;
-    line-height: 120%;
     color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
 }
