@@ -1,23 +1,23 @@
-body{
+body {
     font-weight: 400;
     line-height: 1.5;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.main-header{
+.main-header {
     position: fixed;
     width: 100%;
     background-color: #8b8b8b47;
 }
 
-.section-1{
+.section-1 {
     width: 100%;
     height: 50%;
     background: url(/images/image2.png);
@@ -28,7 +28,7 @@ li{
     background-size: contain;
 }
 
-.welcome{
+.welcome {
     width: 68%;
     height: 50%;
     padding-left: 112px;
@@ -42,7 +42,7 @@ li{
     padding-block: 30px;
 }
 
-.goon-2{
+.goon-2 {
     font-style: normal;
     font-weight: 700;
     font-size: 61px;
@@ -50,7 +50,7 @@ li{
     color: #2D1E0B;
 }
 
-.lorem{
+.lorem {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -58,24 +58,24 @@ li{
     color: #2D1E0B;
 }
 
-.image-1{
-    /* position: relative; */
-    width: 30vw;
-    height: 630px;
-    /* left: 751px; */
-    /* top: 84px; */
+.image-1 {
+    position: absolute;
+    width: 262px;
+    height: 327px;
+    left: 751px;
+    top: 10px;
 }
 
-.goon-span{
+.goon-span {
     color: #EA9F08;
 }
 
-.section-buttons{
+.section-buttons {
     /* display: inline-flex; */
     gap: 20px;
 }
 
-.secto{
+.secto {
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -84,7 +84,7 @@ li{
     text-align: center;
 }
 
-.section-2{
+.section-2 {
     display: flex;
     width: 100vw;
     height: 40vh;
@@ -94,22 +94,22 @@ li{
     justify-content: space-evenly;
 }
 
-.section-2 h3{
+.section-2 h3 {
     width: 360px;
     height: 59px;
     font-style: normal;
     font-weight: 700;
     font-size: 49px;
     line-height: 120%;
-    color: #2D1E0B;      
+    color: #2D1E0B;
 }
 
-.section-2 img{
+.section-2 img {
     width: 324px;
     height: 324px;
 }
 
-.section-2 p{
+.section-2 p {
     width: 527px;
     height: 162px;
     font-style: normal;
@@ -117,9 +117,9 @@ li{
     font-size: 16px;
     line-height: 150%;
     color: #2D1E0B;
-}  
+}
 
-.section-3 h3{
+.section-3 h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 49px;
@@ -127,7 +127,7 @@ li{
     color: #2D1E0B;
 }
 
-.section-3-content{
+.section-3-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -138,7 +138,7 @@ li{
     border-radius: 16px;
 }
 
-.course{
+.course {
     display: flex;
     flex-direction: column;
     padding: 20px 5px;
@@ -148,7 +148,7 @@ li{
 }
 
 
-.course p{
+.course p {
     width: 290px;
     height: 111px;
     font-style: normal;
@@ -161,7 +161,7 @@ li{
     flex-grow: 0;
 }
 
-.maths-content{
+.maths-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -172,7 +172,7 @@ li{
     height: 26px;
 }
 
-.mathsfree{
+.mathsfree {
     /* width: 34px;
     height: 24px; */
     font-style: normal;
@@ -185,13 +185,13 @@ li{
     flex-grow: 0;
 }
 
-.maths-content-2{
+.maths-content-2 {
     display: grid;
     grid-template-columns: 2fr 2fr;
     justify-content: space-between;
 }
 
-.maths-enroll{
+.maths-enroll {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -209,11 +209,11 @@ li{
     flex-grow: 0;
 }
 
-.section-4{
+.section-4 {
     height: 600px;
 }
 
-.section-4 .section_courses{
+.section-4 .section_courses {
     background: #865A21;
     height: 250px;
 }
@@ -224,7 +224,7 @@ li{
     padding-block: 30px 20px;
 }
 
-.section-4 h3{
+.section-4 h3 {
     font-size: 49px;
     color: #F2F2F2;
     text-align: center;
@@ -242,7 +242,7 @@ li{
     margin-top: 50px;
 }
 
-.columns{
+.columns {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -262,12 +262,12 @@ li{
     border-radius: 16px;
 }
 
-.cols .col-para{
+.cols .col-para {
     margin-bottom: 0;
     text-align: center;
 }
 
-.view{
+.view {
     display: flex;
     align-items: flex-start;
     padding: 15px 30px;
@@ -280,7 +280,7 @@ li{
     border-radius: 8px;
 }
 
-.imgs{
+.imgs {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -294,14 +294,14 @@ li{
     width: 57px;
 }
 
-.columns h4{
+.columns h4 {
     height: 37px;
     flex: none;
     flex-grow: 0;
     margin-bottom: 0;
 }
 
-.cols:hover{
+.cols:hover {
     background: #865A21;
     border: 2px solid #F2F2F2;
     color: #fff;
