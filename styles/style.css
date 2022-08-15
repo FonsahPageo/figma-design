@@ -64,6 +64,8 @@ li {
     height: 327px;
     left: 751px;
     top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .goon-span {
@@ -71,7 +73,6 @@ li {
 }
 
 .section-buttons {
-    /* display: inline-flex; */
     gap: 20px;
 }
 
@@ -119,6 +120,12 @@ li {
     color: #2D1E0B;
 }
 
+.section-3{
+    display: grid;
+    padding-top: 20px;
+    justify-content: center;
+}
+
 .section-3 h3 {
     font-style: normal;
     font-weight: 700;
@@ -131,11 +138,10 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* align-items: center; */
     padding: 49px 29px;
-    /* gap: 30px; */
-    width: 100vw;
+    width: 100%;
     border-radius: 16px;
+    gap: 30px;
 }
 
 .course {
@@ -146,7 +152,6 @@ li {
     box-shadow: 0px 0px 12px rgb(0 0 0 / 5%);
     border-radius: 8px;
 }
-
 
 .course p {
     width: 290px;
@@ -173,8 +178,6 @@ li {
 }
 
 .mathsfree {
-    /* width: 34px;
-    height: 24px; */
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
