@@ -27,7 +27,7 @@
 .section-2-course {
     display: flex;
     width: 100vw;
-    height: 240px;
+    height: 180px;
     background: #EA9F08;
     align-items: center;
     justify-content: space-evenly;
@@ -43,8 +43,8 @@
 }
 
 .section-2-course img {
-    width: 324px;
-    height: 324px;
+    width: 224px;
+    height: 224px;
 }
 
 .section-2-course p {
