@@ -11,21 +11,11 @@
     align-items: center;
 }
 
-.courses-section-2 {
-    display: flex;
-    width: 100vw;
-    height: 20vh;
-    background: #EA9F08;
-    align-items: center;
-    align-content: center;
-    justify-content: space-evenly;
-    /* padding-block: 200px; */
-}
-
-.section-3-courses {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.section-3-course {
+    /* width: 100%; */
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
 }
 
 .courses p {
