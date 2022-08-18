@@ -1,9 +1,5 @@
-body {
-    padding: 20px;
-}
-
 .course-details-1 {
-    height: 400px;
+    height: 500px;
     background-color: #5E3F17;
     display: flex;
     /* align-items: flex-start; */
@@ -11,6 +7,8 @@ body {
     justify-content: space-evenly;
     /* text-align: center; */
     /* align-items: center; */
+    padding-left: 90px;
+    padding-right: 60px
 }
 
 .course-details-1 h3 {
@@ -23,7 +21,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: white;
-    font-family: 'Manrope';
+    /* font-family: 'Manrope'; */
     font-style: normal;
 }
 
@@ -33,6 +31,11 @@ body {
     /* justify-content: space-around; */
     font-size: 16px;
     font-weight: 400;
+    color: #fff;
+    gap: 20px;
+}
+
+.course-info .fa-regular, .course-info .fa-solid{
     color: #EA9F08;
 }
 
@@ -41,6 +44,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .div-1 {
@@ -49,11 +53,16 @@ body {
     box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
     margin: 20px;
-    transform: translateY(-70px);
+    transform: translateY(-90px);
 }
 
 .div-2 {
     width: 30%;
+}
+
+.active{
+    padding-bottom: 20px;
+    border-bottom: 4px solid #EA9F08;
 }
 
 .div-1-nav ul{
@@ -67,6 +76,8 @@ body {
 .div-1-nav li {
     float: left;
     padding: 10px;
+    color: #EA9F08;
+
 }
 
 .part-1 {
