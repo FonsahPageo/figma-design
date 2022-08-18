@@ -1,18 +1,35 @@
 .course-details-1{
     height: 264px;
-    background: url(/images/image\ 10.png);
     background-color: #5E3F17;
-    background-position: center;
-    background-blend-mode: overlay;
-    background-size: contain;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    /* align-items: center; */
 }
 
-.course-details-1 p {
+.course-details-1 h3 {
     font-weight: 700;
     font-size: 61px;
     color: white;
+}
+
+.course-details-1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.course-info{
+    display: flex;
+    /* display: grid; */
+    flex-direction: row;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    color: #EA9F08;
 }
