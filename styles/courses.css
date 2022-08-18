@@ -24,21 +24,28 @@
     color: white;
 }
 
+.get-started{
+    padding: 100px;
+}
+
 .section-2-course {
     display: flex;
-    width: 100vw;
-    height: 180px;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
     background: #EA9F08;
     align-items: center;
     justify-content: space-evenly;
+    bottom: 30px;
+    border-radius: 15px;
 }
 
 .section-2-course h3 {
     height: 59px;
     font-style: normal;
     font-weight: 700;
-    font-size: 49px;
-    line-height: 120%;
+    font-size: 35px;
+    /* line-height: 120%; */
     color: #2D1E0B;
 }
 
@@ -51,7 +58,7 @@
     height: 59px;
     font-style: normal;
     font-weight: 700;
-    font-size: 49px;
-    line-height: 120%;
+    font-size: 35px;
+    /* line-height: 120%; */
     color: #fff;
 }

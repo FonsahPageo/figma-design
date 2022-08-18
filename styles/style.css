@@ -170,9 +170,10 @@ li {
 }
 
 .maths-content-2 {
-    display: grid;
+    display: flex;
+    /* display: grid; */
     flex-direction: row;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     justify-content: space-between;
 }
 
