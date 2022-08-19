@@ -10,28 +10,36 @@
     <link rel="stylesheet" href="/styles/course-details.css">
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/styles/reviews.css">
+    <link rel="stylesheet" href="/styles/news.css">
+    <link rel="stylesheet" href="/styles/courses.css">
     <script src="/script/javascript.js"></script>
 </head>
 
 <body>
     <div w3-include-html="header.html" class="top-header"></div>
 
-    <div class="course-details-1">
+    <div class="reviews-top">
         <h3>Leave a review</h3>
-        <h5>Provide Feedback or Recommendation</h5>
-       
+        <p>Provide Feedback or Recommendation</p>
     </div>
 
     <section class="course-details-2">
-        <div class="div-1">
+        <div class="div-1-reviews">
            <form action="">
-                <label for="title">Review Title</label>
-                <input type="text" name="title" placeholder="Enter Review Title">
+                <p>
+                    <div><label for="title">Review Title</label></div>
+                    <input type="text" name="title" placeholder="Enter Review Title">
+                </p>
                 <h6>Number of Stars</h6>
+                <div class="stars">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
-                <label for="description">Review Description</label>
-                <textarea name="description" placeholder="Enter Review Description"></textarea>
-                <input type="checkbox"> I have read terms and conditions.
+                </div>
+                <p>
+                    <div><label for="description">Review Description</label></div>
+                    <textarea name="description" placeholder="Enter Review Description"></textarea>
+                </p>
+                <div><p><input type="checkbox"> I have read terms and conditions.</p></div>
                 <button class="get-started">
                     Leave a review <i class="fa-solid fa-square-pen"></i>
                 </button>
