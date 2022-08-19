@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/course-details.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <script src="/script/javascript.js"></script>
+</head>
+
+<body>
+    <div w3-include-html="header.html" class="top-header"></div>
+
+    <div class="course-details-1">
+        <h3>Leave a review</h3>
+        <h5>Provide Feedback or Recommendation</h5>
+       
+    </div>
+
+    <section class="course-details-2">
+        <div class="div-1">
+           <form action="">
+                <label for="title">Review Title</label>
+                <input type="text" name="title" placeholder="Enter Review Title">
+                <h6>Number of Stars</h6>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                <label for="description">Review Description</label>
+                <textarea name="description" placeholder="Enter Review Description"></textarea>
+                <input type="checkbox"> I have read terms and conditions.
+                <button class="get-started">
+                    Leave a review <i class="fa-solid fa-square-pen"></i>
+                </button>
+           </form>
+        </div>
+    </section>
+
+    <div w3-include-html="footer.html"></div>
+    <script>
+        includeHTML();
+    </script>
+</body>
+
+</html>
