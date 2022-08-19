@@ -1,18 +1,33 @@
-.courses {
-    height: 264px;
-    background: url(/images/image\ 10.png);
-    background-color: #5E3F17;
-    background-position: center;
-    background-blend-mode: overlay;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+.news-div-1 img {
+    width: 100%;
+    /* height: 50%; */
 }
 
-.courses p {
-    font-weight: 700;
-    font-size: 61px;
-    color: white;
+.news-div-1 {
+    width: 50%;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.news-div-1 nav {
+    padding-bottom: 30px;
+}
+
+.news-div-2 {
+    width: 30%;
+    justify-content: center;
+}
+
+.mathspara h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+}
+
+.mathspara p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }

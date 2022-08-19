@@ -2,11 +2,8 @@
     height: 500px;
     background-color: #5E3F17;
     display: flex;
-    /* align-items: flex-start; */
     flex-direction: column;
     justify-content: space-evenly;
-    /* text-align: center; */
-    /* align-items: center; */
     padding-left: 90px;
     padding-right: 60px
 }
@@ -21,14 +18,12 @@
     font-weight: 400;
     font-size: 16px;
     color: white;
-    /* font-family: 'Manrope'; */
     font-style: normal;
 }
 
 .course-info {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
     font-size: 16px;
     font-weight: 400;
     color: #fff;
