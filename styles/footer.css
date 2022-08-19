@@ -34,10 +34,12 @@
     column-gap: 10px;
 }
 
-.footer-2 ul.contact li img {
-    height: 20px;
-    width: 20px;
+.footer-2 ul.contact li .fa-solid, .fa-brands{
+    /* height: 20px; */
+    /* width: 20px; */
     border-radius: 0px;
+    font-size: 25px;
+    color: #EA9F08;
 }
 
 .footer-2 ul.contact li p {
