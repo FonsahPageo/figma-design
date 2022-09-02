@@ -1,13 +1,13 @@
 .top-nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* padding: 10px; */
 }
 
 .top-nav li{
     float: left;
-    padding: 10px;
+    padding: 7px;
     list-style: none;
 }
 
