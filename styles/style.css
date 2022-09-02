@@ -8,7 +8,7 @@ li {
 
 .main-header {
     position: fixed;
-    /* width: 100%; */
+    width: 100%;
     background-color: #8b8b8b47;
 }
 
@@ -30,9 +30,9 @@ li {
     background: rgb(253, 245, 230);
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    /* align-items: center; */
+    /* justify-content: center; */
     padding-block: 30px;
     gap: 30px;
 }
@@ -114,7 +114,7 @@ li {
     color: #2D1E0B;
 }
 
-.mathsfree{
+.mathsfree {
     padding: 4px;
     gap: 6px;
     background: #F6D89A;
@@ -122,9 +122,12 @@ li {
     border-radius: 4px;
     display: flex;
     align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
 }
 
-.fas{
+.fas {
     color: #EA9F08;
 }
 
@@ -166,16 +169,16 @@ li {
     font-weight: 700;
     font-size: 14px;
     color: #865A21;
+    padding: ;
 }
 
 .maths-content-2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .maths-enroll {
-    box-sizing: border-box;
     gap: 10px;
     width: 120px;
     height: 50px;
@@ -192,13 +195,13 @@ li {
     height: 600px;
 }
 
-.section-4 .section_courses {
+.section_courses {
     background: #865A21;
     height: 250px;
 }
 
-.section-4 .section-title {
-    display: flex;
+.section-title {
+    /* display: flex; */
     /* width: 100%; */
     padding-block: 30px 20px;
 }
@@ -214,13 +217,13 @@ li {
     transform: translateY(30px);
 }
 
-.courses .cta {
+.cta {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.courses .cta .view-all {
+.view-all {
     padding: 8px;
     color: #fff;
     background: #EA9F08;
@@ -230,7 +233,7 @@ li {
 
 .columns {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-evenly;
 }
 
@@ -240,17 +243,12 @@ li {
     justify-content: center;
     align-items: center;
     /* padding: 35px 25px; */
-    gap: 5px 0px;
+    /* gap: 5px 0px;yyy */
     width: 22%;
     height: 290.62px;
     background: #FDF5E6;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-}
-
-.cols .col-para {
-    margin-bottom: 0;
-    text-align: center;
 }
 
 .imgs {
@@ -262,18 +260,6 @@ li {
     width: 10%;
     height: 75px;
     padding-bottom: 20px;
-}
-
-.columns .cols img {
-    height: 57px;
-    width: 57px;
-}
-
-.columns h4 {
-    height: 37px;
-    flex: none;
-    flex-grow: 0;
-    margin-bottom: 0;
 }
 
 .cols:hover {
