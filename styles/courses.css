@@ -26,40 +26,36 @@
 
 .get-started{
     padding: 100px;
-    width: 100%;
+    width: 100vw;
+    justify-content: center;
 }
 
 .section-2-course {
     display: flex;
+    padding: 30px;
     flex-direction: row;
-    /* width: 100%; */
-    height: 100%;
+    /* width: 70%; */
+    height: 25vh;
     background: #EA9F08;
     align-items: center;
     justify-content: space-evenly;
-    bottom: 30px;
+    /* bottom: 30px; */
     border-radius: 15px;
 }
 
-.section-2-course h3 {
-    /* height: 59px; */
+.phrase-1, .phrase-2{
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    /* line-height: 120%; */
+    font-size: 30px;
     color: #2D1E0B;
+    /* font-family: 'Manrope'; */
 }
 
 .section-2-course img {
-    width: 224px;
-    height: 224px;
+    width: 200px;
+    height: 200px;
 }
 
-.section-2-course p {
-    /* height: 59px; */
-    font-style: normal;
-    font-weight: 700;
-    font-size: 35px;
-    /* line-height: 120%; */
+.phrase-2 {
     color: #fff;
 }
