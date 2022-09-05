@@ -1,29 +1,28 @@
 .news-details-2 {
     display: flex;
-    /* flex-direction: row; */
-    align-content: center;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    /* text-align: center; */
     padding: 20px;
-    gap: 30px;
+    width: 100%;
 }
 
 .div-1-details {
     width: 100%;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05);
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.05); */
     border-radius: 8px;
     margin: 20px;
     transform: translateY(-90px);
     padding: 20px;
 }
 
-.top-img{
+.top-img {
     width: 100%;
     height: 400px;
 }
 
-.secto-news{
+.secto-news {
     display: flex;
     flex-direction: row;
     background: #FDF5E6;
@@ -33,33 +32,33 @@
     padding: 30px;
 }
 
-.secto-news p{
+.secto-news p {
     font-size: 25px;
     font-weight: 600;
 }
 
-.quote{
+.quote {
     font-size: 60px;
     font-weight: 700;
 }
 
-.news-span{
+.news-span {
     color: #EA9F08;
 }
 
-.get-started-details{
+.get-started-details {
     padding: 40px;
 }
 
-.details-form{
+.details-form {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .section-2-course-details {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
     height: 200px;
     background: #EA9F08;
     align-items: center;
@@ -75,7 +74,7 @@
     border: none;
 }
 
-.submit-button-details{
+.submit-button-details {
     justify-content: center;
     align-items: center;
     width: 30%;
@@ -83,4 +82,11 @@
     border: none;
     border-radius: 8px;
     color: #fff;
+}
+
+.bolder {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+    color: #2D1E0B;
 }

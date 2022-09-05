@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* padding: 10px; */
 }
 
 .top-nav li{
@@ -18,7 +17,6 @@
     float: left;
     display: flex;
     list-style: none;
-    /* text-align: center; */
     text-decoration: none;
     justify-content: space-between;
     color: #865A21;
@@ -59,11 +57,10 @@ button.login-button{
     background: transparent;
 }
 
-button.get-started{
+.get-started-header{
     padding: 8px;
     color: #fff;
     background: #EA9F08;
     border: 1px solid #EA9F08;
     border-radius: 8px;
 }
-
