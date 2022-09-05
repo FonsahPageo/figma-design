@@ -6,11 +6,11 @@ li {
     list-style: none;
 }
 
-.main-header {
+/* .main-header {
     position: fixed;
     width: 100%;
     background-color: #8b8b8b47;
-}
+} */
 
 .section-1 {
     width: 100%;
@@ -52,7 +52,6 @@ li {
     width: 40vw;
     height: 100%;
     padding-right: 50%;
-    /* padding-top: 40%; */
 }
 
 .goon-span {
@@ -96,8 +95,11 @@ li {
     height: 240px;
 }
 
+.space{
+    padding: 50px;
+}
+
 .section-3 {
-    display: flex;
     flex-direction: column;
     width: 100%;
 }
@@ -106,6 +108,7 @@ li {
     font-weight: 700;
     font-size: 35px;
     color: #2D1E0B;
+    padding-left: 10px;
 }
 
 .mathsfree {
