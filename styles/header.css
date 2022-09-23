@@ -50,10 +50,17 @@
 
 .login-button{
     padding: 8px;
-    color: #fff;
     border: 1px solid #EA9F08;
     border-radius: 8px;
     background: transparent;
+}
+
+.login-button a{
+    color: #EA9F08;
+}
+
+.get-started-header a{
+    color: #fff;
 }
 
 .get-started-header{
