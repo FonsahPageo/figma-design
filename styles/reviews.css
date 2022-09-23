@@ -72,3 +72,19 @@ textarea {
     padding: 5px;
     font-size: 20px;
 }
+
+.get-started-reviews{
+    padding: 12px;
+    color: #fff;
+    background: #EA9F08;
+    border: 1px solid #EA9F08;
+    border-radius: 8px;
+}
+
+.course-details-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
