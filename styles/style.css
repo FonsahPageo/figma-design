@@ -9,7 +9,7 @@ li {
 .main-header {
     position: fixed;
     width: 100%;
-    background-color: #8b8b8b47;
+    /* background-color: #8b8b8b47; */
 }
 
 .section-1 {
@@ -95,7 +95,7 @@ li {
 }
 
 .space {
-    padding: 20px;
+    padding: 10px;
 }
 
 .section-3 {
