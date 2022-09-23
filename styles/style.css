@@ -2,6 +2,11 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: #56a79a;
+    /* font-weight: bold; */
+}
+
 li {
     list-style: none;
 }

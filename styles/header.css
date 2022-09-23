@@ -48,10 +48,9 @@
     gap: 10px;
 }
 
-
-button.login-button{
+.login-button{
     padding: 8px;
-    color: #EA9F08;
+    color: #fff;
     border: 1px solid #EA9F08;
     border-radius: 8px;
     background: transparent;
