@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-around;
   background-color: #865A21;
-  /* position: fixed; */
+  text-align: center;
   top: 0;
 }
 
@@ -23,26 +23,4 @@
   text-decoration: none;
   justify-content: space-between;
   color: #fff;
-}
-
-.nav-buttons{
-  display: inline-flex;
-  gap: 10px;
-}
-
-
-button.login-button{
-  padding: 8px;
-  color: #EA9F08;
-  border: 1px solid #EA9F08;
-  border-radius: 8px;
-  background: transparent;
-}
-
-.get-started-header{
-  padding: 8px;
-  color: #fff;
-  background: #EA9F08;
-  border: 1px solid #EA9F08;
-  border-radius: 8px;
 }
