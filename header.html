@@ -18,36 +18,51 @@
         <div class="con">
             <a href="index.html"><img src="/images/Logo.png"></a>
             <nav>
-                <div>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li>
-                            <img src="/images/uk.png" class="flag">
-                            <input type="hidden" id="current-lang" value="en">
-                            <select id="toggle-lang" onchange="switchLanguage()">
-                                <option value="fr">French</option>
-                                <option value="en" selected>English</option>
-                            </select>
-                        </li>
-                    </ul>
-                </div>
-
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <img src="/images/uk.png" class="flag">
+                        <input type="hidden" id="current-lang" value="en">
+                        <select id="toggle-lang" onchange="switchLanguage()">
+                            <option value="fr">French</option>
+                            <option value="en" selected>English</option>
+                        </select>
+                    </li>
+                </ul>
             </nav>
-            <button class="navbar-toggler">
+            <button type="button" class="navbar-toggler">
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <i class="fa fa-times" aria-hidden="true"></i>
             </button>
+            
             <div class="nav-buttons">
                 <button class="login-button"><a href="#">Login</a></button>
                 <button class="get-started-header"><a href="#">Get Started</a></button>
             </div>
-           
+
         </div>
     </header>
+
+    <script>
+        var coll = document.getElementsByClassName("navbar-toggler");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
 </body>
 
 </html>

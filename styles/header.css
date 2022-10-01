@@ -18,7 +18,7 @@ header .con{
 }
 
 header nav{
-    width: fit-content;
+    /* width: fit-content; */
     display: flex;
 }
 
@@ -30,7 +30,7 @@ header nav ul{
 }
 
 header nav ul li{
-    /* float: left; */
+    float: left;
     /* width: 100%; */
     padding: 0.6em 0.8em;
     position: relative;
@@ -86,11 +86,7 @@ header nav ul li select{
 
 li a{
     font-weight: bold;
-    font-size: 16px;
-    line-height: 150%;
     list-style: none;
-    text-decoration: none;
-    justify-content: space-between;
     color: #865A21;
 }
 
